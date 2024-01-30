@@ -20,7 +20,12 @@ const InputField: React.FC<InputFieldProps> = ({
   return (
     <div className="w-full">
       <div className="relative w-full mb-3">
-        <label htmlFor={name}>{label}</label>
+        <label
+          className="block uppercase text-green-600 text-xs font-bold mb-2"
+          htmlFor={name}
+        >
+          {label}
+        </label>
         <input
           type={type}
           name={name}
@@ -28,6 +33,9 @@ const InputField: React.FC<InputFieldProps> = ({
           value={value}
           onChange={onChange}
           required={required}
+          className="border-0 px-3 py-3 placeholder-green-300 text-green-600
+                                                   bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
+                                                   ease-linear transition-all duration-150"
         />
       </div>
     </div>
