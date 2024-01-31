@@ -50,13 +50,13 @@ export default function EmployeeForm() {
         <div className="w-full lg:w-8/12 px-4 mx-auto mt-6">
           <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-green-100 border-0">
             <div className="rounded-t bg-white mb-0 px-6 py-6">
-              <div className="text flex justify-between">
-                <h6 className="text-red-700 text-xl font-bold">
+              <div className="text-center flex justify-between">
+                <h6 className="text-green-700 text-xl font-bold">
                   Create Employee
                 </h6>
               </div>
             </div>
-            <div className="flex px-4 lg:px-10 py-5 pt-0">
+            <div className="flex-auto px-4 lg:px-10 py-5 pt-0">
               <form onSubmit={handleSubmit}>
                 <h6 className="text-green-400 text-sm mt-3 mb-6 font-bold uppercase">
                   User Information
