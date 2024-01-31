@@ -33,9 +33,8 @@ const InputField: React.FC<InputFieldProps> = ({
           value={value}
           onChange={onChange}
           required={required}
-          className="border-0 px-3 py-3 placeholder-green-300 text-green-600
-                                                   bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
-                                                   ease-linear transition-all duration-150"
+          className="border-0 px-3 py-3 placeholder-green-300 text-green-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
+          ease-linear transition-all duration-150"
         />
       </div>
     </div>
