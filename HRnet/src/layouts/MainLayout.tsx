@@ -6,7 +6,7 @@ export default function MainLayout() {
     <>
       <div className="h-screen bg-green-50">
         <div className="border-b border-green-200">
-          <div className="">
+          <div className="container mx-auto py-4 font-[Raleway]">
             <div className="w-full flex items-center justify-between">
               <Link to="/" className="flex items-center space-x-2">
                 <img
@@ -16,7 +16,7 @@ export default function MainLayout() {
                   className="logo react"
                   alt="React logo"
                 />
-                <h1 className="text-2sl font-bold text-red-700">
+                <h1 className="text-2xl font-bold text-green-700">
                   Wealth Health
                 </h1>
               </Link>
