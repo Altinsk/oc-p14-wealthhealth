@@ -113,7 +113,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -124,7 +124,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -135,7 +135,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -146,7 +146,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -157,7 +157,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -168,7 +168,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -179,7 +179,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -190,7 +190,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -201,7 +201,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
@@ -212,7 +212,7 @@ const initialState: Employee[] = [
     zipCode: '16742',
   },
   {
-    firstName: 'Raul',
+    firstName: 'Juan',
     lastName: 'Gonzaliz',
     dateOfBirth: '10/06/2009',
     startDate: '08/11/2019',
