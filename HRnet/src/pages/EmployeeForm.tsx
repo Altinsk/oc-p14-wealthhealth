@@ -1,10 +1,10 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { addEmployee } from '../store/features/employee.ts';
-import Modal from 'react-modal';
 import InputField from '../components/InputField.tsx';
 import { useNavigate } from 'react-router-dom';
 import checked from './../assets/checked.png';
+import { Modal } from 'react-modal-wow';
 
 export default function EmployeeForm() {
   const navigate = useNavigate();
@@ -187,7 +187,7 @@ export default function EmployeeForm() {
               </form>
 
               <Modal
-                isOpen={isModalOpen}
+                show={isModalOpen}
                 close={redirect}
                 title="Employé ajouté avec succès"
                 content={
