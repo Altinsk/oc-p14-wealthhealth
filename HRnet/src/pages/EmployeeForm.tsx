@@ -118,6 +118,8 @@ export default function EmployeeForm() {
                       value={formData.street}
                       onChange={handleChange}
                       required
+                      min=""
+                      max=""
                     />
                   </div>
                   <div className="w-full lg:w-4/12 px-4">
