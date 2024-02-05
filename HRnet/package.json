@@ -15,7 +15,7 @@
     "react-data-table-component": "^7.5.4",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
-    "react-modal-wow": "^0.0.9",
+    "react-modal-wow": "^0.1.0",
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.0",
     "styled-components": "^6.1.1"
