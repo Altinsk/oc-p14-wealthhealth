@@ -46,9 +46,9 @@ export default function EmployeeForm() {
 
   return (
     <div>
-      <section className="py-1 bg-white-50">
+      <section className="py-1 bg-green-50">
         <div className="w-full lg:w-8/12 px-4 mx-auto mt-6">
-          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-green-100 border-0">
+          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-0">
             <div className="rounded-t bg-white mb-0 px-6 py-6">
               <div className="text-center flex justify-between">
                 <h6 className="text-blue-700 text-xl font-bold">
@@ -104,7 +104,7 @@ export default function EmployeeForm() {
                   </div>
                 </div>
 
-                <hr className="mt-6 border-b-1 border-green-300" />
+                <hr className="mt-6 border-b-1 border-blue-300" />
 
                 <h6 className="text-blue-800 text-sm mt-3 mb-6 font-bold uppercase">
                   Address
@@ -133,7 +133,7 @@ export default function EmployeeForm() {
                     />
                   </div>
                   <div className="w-full lg:w-4/12 px-4">
-                    <label className="block uppercase text-green-600 text-xs font-bold mb-2">
+                    <label className="block uppercase text-blue-600 text-xs font-bold mb-2">
                       STATE
                     </label>
                     <select
@@ -142,7 +142,7 @@ export default function EmployeeForm() {
                       value={formData.state}
                       onChange={handleChange}
                       required
-                      className="border-0 px-3 py-3 placeholder-green-300 text-green-600
+                      className="border-0 px-3 py-3 placeholder-blue-300 text-blue-600
                       bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
                       ease-linear transition-all duration-150"
                     >
@@ -227,7 +227,7 @@ export default function EmployeeForm() {
                   </div>
                   <div className="w-full lg:w-full px-4">
                     <div className="relative w-full mb-3">
-                      <label className="block uppercase text-green-600 text-xs font-bold mb-2">
+                      <label className="block uppercase text-blue-600 text-xs font-bold mb-2">
                         Department
                       </label>
                       <select
@@ -236,7 +236,7 @@ export default function EmployeeForm() {
                         value={formData.department}
                         onChange={handleChange}
                         required
-                        className="border-0 px-3 py-3 placeholder-green-300 text-green-600
+                        className="border-0 px-3 py-3 placeholder-blue-300 text-blue-600
                         bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
                         ease-linear transition-all duration-150"
                       >
@@ -251,7 +251,7 @@ export default function EmployeeForm() {
                   </div>
 
                   <button
-                    className="bg-green-800 text-white active:bg-pink-600 font-bold uppercase text-xs
+                    className="bg-blue-800 text-white active:bg-pink-600 font-bold uppercase text-xs
                                         p-4 m-4 rounded shadow hover:shadow-md outline-none focus:outline-none
                                         ease-linear transition-all duration-150 w-full"
                     type="submit"
