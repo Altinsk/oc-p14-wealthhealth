@@ -20,10 +20,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "react-sweet-modal": ["/node_modules/react-modal-wow/dist/index.d.ts"]
-    }
-  },
+    },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
