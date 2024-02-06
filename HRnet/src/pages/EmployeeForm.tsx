@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { addEmployee } from '../store/features/employee.ts';
 import InputField from '../components/InputField.tsx';
+import InputDate from '../components/InputDate.tsx';
 import { useNavigate } from 'react-router-dom';
 import checked from './../assets/checked.png';
 import { Modal } from 'react-modal-wow';
@@ -83,7 +84,7 @@ export default function EmployeeForm() {
                     />
                   </div>
                   <div className="w-full lg:w-6/12 px-4">
-                    <InputField
+                    <InputDate
                       label="Date of Birth"
                       type="date"
                       name="dateOfBirth"
@@ -93,7 +94,7 @@ export default function EmployeeForm() {
                     />
                   </div>
                   <div className="w-full lg:w-6/12 px-4">
-                    <InputField
+                    <InputDate
                       label="Start Date"
                       type="date"
                       name="startDate"
@@ -118,8 +119,6 @@ export default function EmployeeForm() {
                       value={formData.street}
                       onChange={handleChange}
                       required
-                      min=""
-                      max=""
                     />
                   </div>
                   <div className="w-full lg:w-4/12 px-4">
@@ -264,7 +263,7 @@ export default function EmployeeForm() {
               <Modal
                 show={isModalOpen}
                 close={redirect}
-                title="Employé ajouté avec succès"
+                title="Employee is successfully added"
                 content={
                   <div className="flex w-full items-center justify-center">
                     <img src={checked} className="w-36" alt="checked" />
