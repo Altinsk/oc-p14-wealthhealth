@@ -7,6 +7,7 @@ interface InputDateProps {
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   required: boolean;
+  maxDate: string;
 }
 
 const InputDate: React.FC<InputDateProps> = ({
@@ -15,6 +16,7 @@ const InputDate: React.FC<InputDateProps> = ({
   name,
   value,
   onChange,
+  maxDate,
   required,
 }) => {
   return (
@@ -32,6 +34,7 @@ const InputDate: React.FC<InputDateProps> = ({
           id={name}
           value={value}
           onChange={onChange}
+          max={maxDate}
           required={required}
           className="border-0 px-3 py-3 placeholder-blue-300 text-blue-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full
           ease-linear transition-all duration-150"

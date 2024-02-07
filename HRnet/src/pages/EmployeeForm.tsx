@@ -92,6 +92,7 @@ export default function EmployeeForm() {
                       name="dateOfBirth"
                       value={formData.dateOfBirth}
                       onChange={handleChange}
+                      maxDate={new Date().toJSON().slice(0, 10)}
                       required
                     />
                   </div>
@@ -102,6 +103,7 @@ export default function EmployeeForm() {
                       name="startDate"
                       value={formData.startDate}
                       onChange={handleChange}
+                      maxDate={new Date().toJSON().slice(0, 10)}
                       required
                     />
                   </div>
